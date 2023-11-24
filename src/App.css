@@ -1,0 +1,62 @@
+/* src/App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.task-form-container {
+  margin-top: 20px;
+}
+
+/* src/components/TaskItem.css */
+
+.list-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.list-item.completed {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.list-item label {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.list-item button {
+  margin-left: 10px;
+}
+
+/* src/components/TaskForm.css */
+
+.task-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
